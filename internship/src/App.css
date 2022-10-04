@@ -1,0 +1,98 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-variant: small-caps;
+}
+.whole_container{
+
+}
+.display_element_as_grid{
+  display: grid;
+  grid-template-columns: repeat(3,3fr);
+  height: 90vh;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.displayitem{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+height: fit-content;
+width: fit-content;
+  margin-left: 100px;
+  margin-right: 100pxpx;
+  margin-top: 50px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.image{
+  height: 300px;
+  width: 350px;
+}
+.moviename{
+  margin-top: 20px;
+  text-indent: 20px;
+}
+.move_language{
+  margin-top: 20px;
+  text-indent: 20px;
+}
+.movie_readmore{
+  margin-top: 20px;
+}
+.movie_readmore > button{
+  height: 30px;
+  width: 100px;
+  display: grid;
+  place-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  background-color: rgb(91, 91, 231);
+  color: white;margin-left: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  outline: none;
+  border: none;
+}
+.movie_readmore > button:hover{
+  transition-duration: .5s;
+  background-color:rgb(138, 138, 233) ;
+}
+.allinfo{
+  width: 90%;
+  margin: auto;
+  margin-top: 2.5%;
+  height: 700px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.pagetwo_leftimg{
+  width: 500px;
+}
+.pagetwo_img{
+  width: 100%;
+  height: 700px;
+}
+.pagetwo_right{
+  margin: auto;
+  height: 500px;
+  width: 700px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  text-indent: 20px;
+}
+.pagetwo_moviename{
+  margin-top: 20px;
+}
+.pagetwo_all_container{
+  display: flex;
+}
+.pagetwo_schedule,.pagetwo_summary,.pagetwo_officialsite,.pagetwo_generes{
+  margin-top: 20px;
+  text-indent: 20px;
+ font-style: none;
+}
+.pagetwo_summary{
+  outline: 3px dotted gray;
+  outline-offset: 0;
+}
+.pagetwo_previosepisode,.pagetwo_premire,.pagetwo_webchannel{
+  margin-top: 20px;
+}
